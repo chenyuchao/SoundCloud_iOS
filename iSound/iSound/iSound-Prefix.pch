@@ -1,0 +1,33 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "Custom.h"
+    #import "Downloader.h"
+    #import "Request.h"
+    #import "JRTouchView.h"
+    #import "JRImageView.h"
+    #import "JROrderlyDictionary.h"
+    #import "Request_cyc.h"
+    #import "DataCache.h"
+    #import "MTool.h"
+    #import "UserCenter_Super.h"
+    #import "UMSocial.h"//友盟
+    #import "MoviePlayer.h"
+    #import "MTableView.h"
+    #import "SVPullToRefresh.h"
+    #import "APService.h"
+#endif
+
+#define UMengKey @"527e06ae56240bcfdb0959af"
